@@ -1,0 +1,38 @@
+{
+  "name": "my-awesome-package",
+  "version": "1.0.0",
+  "description": "An example package.json for reference.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "build": "webpack --mode production"
+  },
+  "keywords": [
+    "example",
+    "npm",
+    "package"
+  ],
+  "author": "Your Name <email@example.com> (https://example.com)",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "mongoose": "^4.8.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.12",
+    "webpack": "^5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com"
+  },
+  "bugs": {
+    "url": "https://github.com"
+  },
+  "engines": {
+    "node": ">=7.6.0",
+    "npm": ">=4.1.2"
+  }
+}
