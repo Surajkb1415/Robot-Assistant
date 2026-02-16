@@ -7,3 +7,7 @@ jobs:
     steps:
       - name: Run a greeting
         run: echo "The CI pipeline has sucessfully started"
+
+      - uses: actions/checkout@v4
+      - name: Run python tests
+        run: python3 test_calc.py
